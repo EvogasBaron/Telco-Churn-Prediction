@@ -1,0 +1,27 @@
+# Telco Customer Churn Prediction
+# Phiên bản lấy từ môi trường ảo (.venv) của dự án, phát triển trên Python 3.14.
+# Cài đặt: pip install -r requirements.txt
+
+# --- Xử lý dữ liệu ---
+pandas==3.0.3
+numpy==2.4.6
+
+# --- Mô hình hóa & đánh giá ---
+scikit-learn==1.9.0
+imbalanced-learn==0.14.2
+xgboost==3.3.0
+lightgbm==4.6.0
+
+# --- Giải thích mô hình ---
+shap==0.52.0
+
+# --- Trực quan hóa & lưu mô hình ---
+matplotlib==3.11.0
+joblib==1.5.3
+
+# --- Xuất báo cáo markdown (DataFrame.to_markdown trong evaluation.py) ---
+tabulate==0.10.0
+
+# --- Tùy chọn: chạy notebook trong thư mục notebooks/ ---
+# jupyterlab==4.6.0
+# ipykernel==7.3.0
