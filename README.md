@@ -41,32 +41,6 @@ Kết quả trên tập test (ngưỡng dự đoán 0,5), sắp xếp theo Recal
 
 Logistic Regression có Recall cao nhất (71,9%) và ROC-AUC cao nhất (0,834), đồng thời dễ giải thích, nên được khuyến nghị làm mô hình chính. Các biểu đồ nằm trong `reports/figures/`.
 
-## Cấu trúc thư mục
-
-```
-Tetch_chun/
-├── data/
-│   ├── raw/                  # Dữ liệu gốc
-│   └── processed/            # cleaned_data.csv, featured_data.csv
-├── models/                   # Mô hình đã huấn luyện (.pkl), scaler, danh sách cột
-│                             # và các script train_*.py mà pipeline.py import
-├── notebooks/                # Notebook khám phá dữ liệu
-├── reports/
-│   ├── figures/              # Ma trận nhầm lẫn, ROC, PR, feature importance
-│   └── model_comparison_report.md
-├── src/
-│   ├── config.py             # Đường dẫn và tham số dùng chung
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── preprocessing.py
-│   ├── imbalance_handler.py
-│   ├── train_*.py            # Huấn luyện từng mô hình riêng lẻ
-│   ├── evaluation.py
-│   ├── explainability.py
-│   └── pipeline.py           # Chạy toàn bộ quy trình
-├── requirements.txt
-└── README.md
-```
 
 ## Cài đặt
 
